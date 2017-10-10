@@ -1,0 +1,57 @@
+/*-----------------------------ABOUT COFFEE--------------------------------*/
+
+#back02
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background: url(..//d002/pexels-photo_bnw_s.png);
+    background-size: cover; /*allows the image to fit the content of the div*/
+    overflow: auto;
+}
+
+.text_box
+{
+    margin: 4em;
+    line-height: 200%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 5px 10px black; 
+}
+/*-------------------history-------------------*/
+#about
+{
+    display: block;
+opacity: 0}
+
+#goat 
+{
+    height: 10em;
+}
+
+
+
+/*-------------------process-------------------*/
+#plant
+{
+    height: 20em;
+    width: auto;
+    margin-left: 4em;
+    float: left;
+    padding: 1em;
+}
+
+
+/*-------------------types---------------------*/
+.types
+{
+    height: 20em;
+    width: auto;
+    margin-left: 4em;
+    float: left;
+    padding: 1em;
+    
+}
+
+/*-------------------fun facts-----------------*/
+

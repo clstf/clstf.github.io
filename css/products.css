@@ -1,0 +1,122 @@
+/*--------------------------------PRODUCTS--------------------------------*/
+
+#back02
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background: url(..//d002/pexels-photo-296888_s.png);
+    background-size: cover; /*allows the image to fit the content of the div*/
+    overflow: auto;
+}
+
+/*-------------------products------------------*/
+
+#products
+{
+    opacity: 0;
+    display: block;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+
+#machines01 , #coffee01, #other01
+{
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+#machines01 img
+{
+    
+}
+
+#machines01 td, #coffee01 td, #other01 td 
+{
+    /*background-color: rgba(255, 255, 255, 0.18);*/
+    width: 50%;
+    vertical-align:middle;
+    border: 1px solid rgba(255, 255, 255, 0);
+    
+    /* this will ensure the border is drawn on the inside and not the outside space, thus it will look always the same size, no page moving when hovering*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+}
+
+.hovered_td
+{
+    background-color: rgba(255, 255, 255, 0.34);
+    border: 1px solid white;
+    text-shadow: 1px 1px white;
+}
+ td img
+{
+    text-align: center; 
+
+
+}
+
+#perc , #caft , #expr, #filt
+{
+    text-align: left;
+    padding-left: 2em;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+
+button
+{
+    background: black;
+    color: white;
+    border: 1px solid #121010;
+    padding: 0.5em;
+    margin: 1em;
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    font-size: 0.7em;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 5px black;
+    display: block;
+    
+}
+
+.sm, .md, .bg
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.choose
+{
+    background-color: rgba(255, 255, 255, 0.34);
+    display: none;
+
+    
+}
+.actv
+{
+    background-color: rgba(255, 255, 255, 0.34);
+}
+
+#it
+{
+    font-size: 0.8em;
+}
+
+.gif
+{
+   /* opacity: 0.34;*/
+    margin-top: 2em;
+    height: 10em;
+    width: auto;
+    display: block;
+}
+
+#bean img ,#ground img , #pod img, #caps img, #otherp img
+{
+    height: 12em;
+}

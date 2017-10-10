@@ -1,0 +1,165 @@
+body, html
+{
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+
+}
+
+/* ______________________navbar__________________________*/
+
+#banner
+{
+    height: 3em;
+    width: auto;
+    display: block;
+}
+
+
+#menu
+{
+    color: white;
+    float: right;
+    font-size: 1em;
+    display: inline-block;
+    padding: 0.5em;
+    position: absolute;
+    top:1em;
+    right: 0px;  
+ 
+}
+
+
+.down 
+{
+    background-color: rgba(0, 0, 0, 0.67);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+
+    
+
+}
+
+.c , .p
+{
+    background-color: rgba(0, 0, 0, 0.67);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#opt01 
+{
+    font-size: 0.8em;
+     width: 50em;
+    
+}
+
+#opt01 th a:hover
+{
+    color: #fcd77b;
+}
+
+.menu_01 a , .down a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.down a:hover 
+{
+    text-decoration: none;
+    color: grey;
+}
+
+
+/* ---------------------background---------------------------------- */
+#back
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background: url(..//d002/IMG_20170509_140210_b.jpg);
+    background-size: cover; /*allows the image to fit the content of the div*/
+    overflow: auto;
+    
+}
+
+/*background scrollbar*/
+#back::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: black;
+}
+
+#back::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: black;
+}
+
+#back::-webkit-scrollbar-thumb
+{
+	/*border-radius: 10px;*/
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: white;
+}
+
+
+/*-----------------------------HOME--------------------------------*/
+#home
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#info_us
+{
+    margin: 4em;
+    line-height: 200%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px black;
+}
+
+.title
+{
+    margin-left: 1em;
+}
+
+.text
+{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    font-size: 0.9em;
+    /*text-align: right;*/
+}
+
+ .text_box
+{
+    margin: 4em;
+    line-height: 200%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/*-------------------about us------------------*/
+
+#about
+{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
+

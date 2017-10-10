@@ -1,0 +1,215 @@
+body, html
+{
+    font-family: 'Trebuchet MS', Helvetica, Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+
+}
+
+/* ______________________navbar__________________________*/
+
+#banner
+{
+    height: 3em;
+    width: auto;
+    display: block;
+}
+
+
+#menu_big
+{
+    color: white;
+    float: right;
+    font-size: 1em;
+    display: inline-block;
+    padding: 0.5em;
+    position: absolute;
+    top:1em;
+    right: 0px;  
+ 
+}
+
+
+.down 
+{
+    /*background-color: rgba(0, 0, 0, 0.67);*/
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+.c , .p
+{
+    background-color: rgba(0, 0, 0, 0.67);
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#opt01 
+{
+    font-size: 0.8em;
+     width: 50em;
+
+    
+}
+
+
+
+#opt01 th a:hover
+{
+    color: #fcd87e;
+}
+
+a
+{
+    color: #fcd77b;
+}
+
+
+.menu_01 a , .down a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.down a:hover 
+{
+    text-decoration: none;
+    color: grey;
+}
+
+/*.active
+{
+    color: #fcd77b;
+}*/
+
+/* ---------------------background---------------------------------- */
+#back
+{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    background: url(..//d002/fundo_c.png);
+    background-size: cover; /*allows the image to fit the content of the div*/
+    overflow: auto;
+    
+}
+
+/*background scrollbar*/
+#back::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: black;
+}
+
+#back::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: black;
+}
+
+
+#back::-webkit-scrollbar-thumb
+{
+	/*border-radius: 10px;*/
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: white;
+}
+
+
+/*---------------------------ALL-----------------------------*/
+.loader
+{
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('..//imgs/loading.gif') 50% 50% no-repeat rgb(0, 0, 0);
+}
+
+.activ
+{
+    color: red;
+}
+/*-----------------------------HOME--------------------------------*/
+#home
+{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    display: none;
+}
+
+#info_us
+{
+    margin: 4em;
+    line-height: 200%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px black;
+}
+
+.title
+{
+    margin-left: 1em;
+}
+
+.text
+{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 2em;
+    font-size: 0.9em;
+    /*text-align: right;*/
+}
+
+ .text_box
+{
+    margin: 4em;
+    line-height: 200%;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/*-------------------about us------------------*/
+
+#about
+{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+
+/*-------------------------404 PAGE----------------------------*/
+
+#quatro
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(..//d002/404_01.png);
+    position: fixed;
+    top: 0px;
+    background-size: cover
+}
+
+#quatro a
+{
+    color: white;
+    font-size: 0.9em;
+    /*text-decoration: none;*/
+    position:absolute;
+    bottom: 2em;
+    right: 2em;
+    z-index: 2;
+}
+
