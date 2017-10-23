@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+    <title>Coffee Beans - Order </title>
+
+      	<!--check the css specific file name-->
+    <link rel="stylesheet" href="..//css/main.css" type="text/css" />
+    <link rel="stylesheet" href="..//css/order.css" type="text/css" />
+    <link rel="stylesheet" href="..//css/ui-themes/smoothness/jquery-ui-1.10.0.custom.css" type="text/css" />
+
+      
+      
+      <!--This to have the icons  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+    <!--jquery-->
+    <script src="..//jQuery/jquery.js"></script>
+    <!--jquery ui-->
+    <script src="..//jQuery/jquery-ui-1.10.0.custom.min.js"></script>
+    
+
+      
+    <script src="..//jQuery/main.js"></script>
+    
+    <!--icon on the tab file-->
+    <link rel="shortcut icon" type="image/x-icon" href="..//d002/lo.png" >
+    
+</head>
+<body>
+    
+      <!--------------------------------------- HEADER --------------------------------------------------->
+	<div id="header">
+   
+        <img id="banner" src="..//d002/cfbeans.png">
+        
+        <div id="menu_big">
+            <table id="opt01"  cellspacing="0">
+                <tr class="menu_01">
+                    <th><a href='home.html'>Home</a></th>
+                    <th><a href="aboutCoffee.html">About coffee</a></th>
+                    <th><a href="products.html">Products</a></th>
+                    <th><a href='order.html'>Order</a></th>
+                
+                </tr>
+            
+                <tr class="down">
+                    <td></td>
+                    <td class="c"><a href="aboutCoffee.html#hist">History</a></td>
+                    <td class="p"><a href="products.html#machine">Machines</a></td>
+                    <td></td>
+                </tr>
+                <tr class="down">
+                    <td></td>
+                    <td class="c"><a href="aboutCoffee.html#proc">Process</a></td>
+                    <td class="p"><a href="products.html#coffee">Coffee</a></td>
+                    <td></td>
+                </tr>
+                <tr class="down">
+                    <td></td>
+                    <td class="c"><a href="aboutCoffee.html#types">Types</a></td>
+                    <td class="p"><a href="products.html#otherp">Other products</a></td>
+                    <td></td>
+                </tr>
+                <tr class="down">
+                    <td></td>
+                    <td class="c"><a href="aboutCoffee.html#funf">Fun facts</a></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    
+    <!--------------------------------------------- MAIN -----------------------------------------------> 
+    <div id="back" >
+         <!---------ORDER------------>
+        <div id="order">
+            <div id="box01">
+                <h4>Your order</h4>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Quant.</th> 
+                        <th>Product</th>
+                        <th>Unity Price</th>
+                        <th>Sum Price</th>
+                    </tr>
+                    <tr>
+                        <td><img src="..//d002/ristretto.png"></td>
+                        <td>3x</td> 
+                        <td> 10 cap. strong flavour coffee</td>
+                        <td> £3.1</td>
+                        <td>£9.3</td>
+                    </tr>
+                    <tr>
+                        <td><img src="..//d002/arpeggio.png"></td>
+                        <td>2x</td> 
+                        <td> 100g Known brand Capuccino</td>
+                        <td> £3.1</td>
+                        <td>£6.2</td>
+                    </tr>
+                    <tr>
+                        <td><img src="..//d002/capriccio.png"></td>
+                        <td>2x</td> 
+                        <td> 10 cap. Soft flavour decaff</td>
+                        <td> £3.1</td>
+                        <td>£6.2</td>
+                    </tr>
+                    <tr>
+                        <td><img src="..//d002/volluto.png"></td>
+                        <td>3x</td> 
+                        <td> 150ml special milk</td>
+                        <td> £3.3</td>
+                        <td>£9.9</td>
+                    </tr>
+                    <tr>
+                        <td><img src="..//d002/delivery.png"></td>
+                        <td></td> 
+                        <td> Home delivery service</td>
+                        <td> </td>
+                        <td>£5.0</td>
+                    </tr> 
+                    <tr>
+                        <td></td>
+                        <td></td> 
+                        <td></td>
+                        <td> Total</td>
+                        <td>£36.60</td>
+                    </tr>
+          
+                </table>
+        
+                <button id="change_btn"> Change your order</button>
+            </div>
+    
+    
+            <div id="box02">
+                <h4>Payment Details</h4>
+        
+                <p> Choose credit card type: </p>
+        
+                <table id="credit">
+                    <tr>
+                        <th><img src="..//d002/visa.png" alt="VISA"></th>
+                        <th><img src="..//d002/MasterCard_Logo.svg.png" alt="MASTERCARD"></th> 
+                        <th><img src="..//d002/1000px-American_Express_logo.svg.png" alt="AMERICAN EXPRESS"></th>
+                        <th><img src="..//d002/paypal.png" alt="PAYPALL"></th>
+                    </tr>
+                    <tr>
+                        <td>  <input type="radio" name="cardType" value="visa"></td>
+                        <td><input type="radio" name="cardType" value="mastercard"></td> 
+                        <td> <input type="radio" name="cardType" value="americanExpress"></td>
+                        <td> <input type="radio" name="cardType" value="paypall"></td>
+                    </tr>
+                </table>
+        
+                <p> Name on card</p>
+                <input>
+                <p>Card number</p>
+                <input>
+        
+                <table id="tb2">
+                    <tr>
+                        <td id="exp">Expiry date</td>
+                        <td id="sec">Security code</td>
+                    </tr>
+                    <tr>
+                        <td id="exp2" ><input value="mm/yyyy"></td>
+                        <td id="sec2"><input  class="fa" value="&#xf059;"></td>
+                    </tr>
+                </table>
+        
+                <p id="bill"> <input type="checkbox" name="billing "value="yes"> I wish to receive an invoice of this purchase </p>
+        
+                <button id="confirm">Confirm Payment</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="tu">
+        <div id="tu2">
+            <p> Thank you for shopping with us!</p>
+            <a href="order.html">Go back</a>
+        </div>
+        
+    
+    </div>
+</body>
+
+</html>
