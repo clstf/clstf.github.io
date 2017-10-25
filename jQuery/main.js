@@ -322,6 +322,11 @@ $(document).ready(function() {
                 console.log('you clicked a td element');
             
     }
+	    
+	   //when clicking the logo in the banner, it will redirect to the home page 
+	    $('#banner').click(function() {
+		    location.href='index.html';
+	    })
     });
     
     
